@@ -6,6 +6,8 @@ import UIKit
 
 // Your function here
 
+func double(num: Double) -> Double {
+return num * 2
 
 let testCasesOne: [(Double, Double)] = [
     (input: 3.0, expectedOutput: 6.0),
@@ -13,9 +15,15 @@ let testCasesOne: [(Double, Double)] = [
     (input: -2, expectedOutput: -4),
     (input: 99, expectedOutput: 198)
 ]
+    
+    
+}
 
-//for (input, expectedOutput) in testCasesOne {
-//    let output = double(input)
+let output = double(num: [)
+
+for -, _ ) in testCasesOne {
+   
+    
 //    assert(output == expectedOutput, "Was expecting \(expectedOutput) for input \(input), but got \(output)")
 //}
 
