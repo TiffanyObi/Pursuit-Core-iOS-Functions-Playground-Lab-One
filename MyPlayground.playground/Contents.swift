@@ -6,24 +6,37 @@ import UIKit
 
 // Your function here
 
-func double(num: Double) -> Double {
-return num * 2
+func double(arr: [(Double)]) -> [(Double,Double)] {
+    for num in arr {
 
-let testCasesOne: [(Double, Double)] = [
+    
+    }
+    
+    return
+}
+
+
+var arraytestOneInput = [3.0, 0, -2, 99]
+
+
+double(arr: arraytestOneInput)
+
+//let arraytestOneOutput = [6.0, 0, -4, 198]
+
+
+
+/*let testCasesOne: [(Double, Double)] = [
     (input: 3.0, expectedOutput: 6.0),
     (input: 0, expectedOutput: 0),
     (input: -2, expectedOutput: -4),
     (input: 99, expectedOutput: 198)
 ]
-    
-    
-}
+    */
 
-let output = double(num: [)
+//let stringTestOne:
 
-for -, _ ) in testCasesOne {
-   
-    
+/*double(num:t))
+
 //    assert(output == expectedOutput, "Was expecting \(expectedOutput) for input \(input), but got \(output)")
 //}
 
@@ -102,4 +115,4 @@ let testCasesFive: [([Int?], [Int])] = [
 //    let output = removeNils(from: input)
 //    assert(output == expectedOutput, "Was expecting \(expectedOutput) for input \(input), but got \(output)")
 //}
-
+*/
